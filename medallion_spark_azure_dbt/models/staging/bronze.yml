@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: saleslt
+    schema: bronze
+    description: This is the adventureworks database loaded into bronze
+    tables:
+      - name: address
+      - name: customer
+      - name: customeraddress
+      - name: product
+      - name: productmodel
+      - name: salesorderdetail
+      - name: salesorderheader

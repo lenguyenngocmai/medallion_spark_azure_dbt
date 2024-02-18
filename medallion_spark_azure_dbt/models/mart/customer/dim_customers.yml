@@ -1,0 +1,10 @@
+{{
+    config(
+        materialized = "table",
+        file_format = "delta",
+        location_root = "/mnt/gold/customers"
+    )
+}}
+
+SELECT 
+FROM 
